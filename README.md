@@ -5,6 +5,14 @@
 This repository contains the code for the assignments of the course CZ4046 Intelligent Agents.
 
 - Assignment 1: Agent Decision Making
+- Assignment 2: Repeated Prisoners Dilemma
+
+## Tech Stack
+
+Before you get started with running the repository, make sure you have the following installed:
+
+- Java Development Kit (JDK 17+)
+- Apache Maven (Version 3.9+)
 
 ## Setup
 
@@ -18,22 +26,4 @@ java --version
 
 ```bash
 mvn -version
-```
-
-3. Clone the repository.
-
-```bash
-git clone https://github.com/dannweeeee/CZ4046-Intelligent-Agents.git
-```
-
-4. Navigate to assignment-one
-
-```bash
-cd assignment-one
-```
-
-4. Build the project
-
-```bash
-mvn exec:java -Dexec.mainClass="cz4046.main.<filename>"
 ```
