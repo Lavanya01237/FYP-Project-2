@@ -9,8 +9,8 @@ public class Wee_Dann_Player {
      * 
      * Recall that in the 2-players dilemma, U(DC) > U(CC) > U(DD) > U(CD), where
      * we give the payoff for the first player in the list. We want the three-player
-     * game to resemble the 2-player game whenever one player's response is fixed,
-     * and we
+     * game
+     * to resemble the 2-player game whenever one player's response is fixed, and we
      * also want symmetry, so U(CCD) = U(CDC) etc. This gives the unique ordering
      * 
      * U(DCC) > U(CCC) > U(DDC) > U(CDC) > U(DDD) > U(CDD)
@@ -273,7 +273,7 @@ public class Wee_Dann_Player {
     /* Finally, the remaining code actually runs the tournament. */
 
     public static void main(String[] args) {
-        WeeDannPlayer instance = new WeeDannPlayer();
+        Wee_Dann_Player instance = new Wee_Dann_Player();
         instance.runTournament();
     }
 
