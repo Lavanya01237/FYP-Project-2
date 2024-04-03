@@ -18,7 +18,13 @@ git clone https://github.com/dannweeeee/CZ4046-Intelligent-Agents.git
 cd assignment-one
 ```
 
-3. Build the project
+3. Compile the project
+
+```bash
+mvn compile
+```
+
+4. Build the project
 
 ```bash
 mvn exec:java -Dexec.mainClass="cz4046.main.<filename>"

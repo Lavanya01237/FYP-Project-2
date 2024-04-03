@@ -1,6 +1,6 @@
 package cz4046.main;
 
-public class Initial_Strategies {
+public class ThreePrisonersDilemmaWithStrategies {
 
     /*
      * This Java program models the two-player Prisoner's Dilemma game.
@@ -52,10 +52,74 @@ public class Initial_Strategies {
     }
 
     /*
-     * 5 Initial Strategies
+     * 5 Design Strategies
      */
 
-    // Strategy 1: Firm but Fair Player
+    // Strategy 1: Hard Majority Player
+    class HardMajorityPlayer extends Player {
+
+        // Counter to keep track of number of times agent has cooperated
+        int numCooperate = 0;
+
+        // Method to select the action for each round
+        int selectAction(int n, int[] myHistory, int[] oppHistory1, int[] oppHistory2) {
+            if (n == 0) {
+                // Rule: Defect on the first move
+                return 1; // Defect
+            } else {
+                // Count the number of times the opponent has defected
+                int numDefect = 0;
+                for (int i = 0; i < n; i++) {
+                    if (oppHistory1[i] == 1 || oppHistory2[i] == 1) {
+                        numDefect++;
+                    }
+                }
+
+                // If number of defections by opponent >= number of times agent has cooperated,
+                // defect; else cooperate
+                if (numDefect >= numCooperate) {
+                    // Rule: Defect if opponent has defected more
+                    return 1; // Defect
+                } else {
+                    // Increment counter for number of times agent has cooperated
+                    numCooperate++;
+                    // Rule: Cooperate otherwise
+                    return 0; // Cooperate
+                }
+            }
+        }
+    }
+
+    // Strategy 2: Grim Trigger Player
+    class GrimTriggerPlayer extends Player {
+
+        // Flag to indicate if the player has been triggered by opponent's defection
+        boolean triggered = false;
+
+        // Method to select the action for each round
+        int selectAction(int n, int[] myHistory, int[] oppHistory1, int[] oppHistory2) {
+            if (!triggered) {
+                // Check if opponent has defected in previous rounds
+                for (int i = 0; i < n; i++) {
+                    if (oppHistory1[i] == 1 || oppHistory2[i] == 1) {
+                        // Rule: Cooperate until opponent defects
+                        triggered = true;
+                        break;
+                    }
+                }
+            }
+
+            if (triggered) {
+                // Rule: Defect once opponent has defected
+                return 1; // Defect
+            } else {
+                // Rule: Cooperate initially
+                return 0; // Cooperate
+            }
+        }
+    }
+
+    // Strategy 3: Firm but Fair Player
     class FirmButFairPlayer extends Player {
 
         // Flag to keep track of whether to cooperate or not
@@ -85,7 +149,7 @@ public class Initial_Strategies {
         }
     }
 
-    // Strategy 2: Gradual Player
+    // Strategy 4: Gradual Player
     class GradualPlayer extends Player {
 
         // Variables to track defections and forgiveness status
@@ -142,70 +206,6 @@ public class Initial_Strategies {
         }
     }
 
-    // Strategy 3: Grim Trigger Player
-    class GrimTriggerPlayer extends Player {
-
-        // Flag to indicate if the player has been triggered by opponent's defection
-        boolean triggered = false;
-
-        // Method to select the action for each round
-        int selectAction(int n, int[] myHistory, int[] oppHistory1, int[] oppHistory2) {
-            if (!triggered) {
-                // Check if opponent has defected in previous rounds
-                for (int i = 0; i < n; i++) {
-                    if (oppHistory1[i] == 1 || oppHistory2[i] == 1) {
-                        // Rule: Cooperate until opponent defects
-                        triggered = true;
-                        break;
-                    }
-                }
-            }
-
-            if (triggered) {
-                // Rule: Defect once opponent has defected
-                return 1; // Defect
-            } else {
-                // Rule: Cooperate initially
-                return 0; // Cooperate
-            }
-        }
-    }
-
-    // Strategy 4: Hard Majority Player
-    class HardMajorityPlayer extends Player {
-
-        // Counter to keep track of number of times agent has cooperated
-        int numCooperate = 0;
-
-        // Method to select the action for each round
-        int selectAction(int n, int[] myHistory, int[] oppHistory1, int[] oppHistory2) {
-            if (n == 0) {
-                // Rule: Defect on the first move
-                return 1; // Defect
-            } else {
-                // Count the number of times the opponent has defected
-                int numDefect = 0;
-                for (int i = 0; i < n; i++) {
-                    if (oppHistory1[i] == 1 || oppHistory2[i] == 1) {
-                        numDefect++;
-                    }
-                }
-
-                // If number of defections by opponent >= number of times agent has cooperated,
-                // defect; else cooperate
-                if (numDefect >= numCooperate) {
-                    // Rule: Defect if opponent has defected more
-                    return 1; // Defect
-                } else {
-                    // Increment counter for number of times agent has cooperated
-                    numCooperate++;
-                    // Rule: Cooperate otherwise
-                    return 0; // Cooperate
-                }
-            }
-        }
-    }
-
     // Strategy 5: Reverse Tit for Tat Player
     class ReverseT4TPlayer extends Player {
 
@@ -220,7 +220,7 @@ public class Initial_Strategies {
         }
     }
 
-    // Strategy 6: Best Player
+    // Develop Best Player
     class BestPlayer extends Player {
 
         // Private instance variables
@@ -455,7 +455,7 @@ public class Initial_Strategies {
     /* Finally, the remaining code actually runs the tournament. */
 
     public static void main(String[] args) {
-        Initial_Strategies instance = new Initial_Strategies();
+        ThreePrisonersDilemmaWithStrategies instance = new ThreePrisonersDilemmaWithStrategies();
         instance.runTournament();
     }
 

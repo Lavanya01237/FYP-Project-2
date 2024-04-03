@@ -1,3 +1,5 @@
+Results from the Strategies Source Code (ThreePrisonersDilemmaWithStrategies.java)
+
 Tournament 1
 BestPlayer: 435.0447 points.
 GrimTriggerPlayer: 427.322 points.
