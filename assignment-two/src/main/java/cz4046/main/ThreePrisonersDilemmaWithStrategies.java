@@ -52,7 +52,7 @@ public class ThreePrisonersDilemmaWithStrategies {
     }
 
     /*
-     * 5 Design Strategies
+     * 5 Strategies
      */
 
     // Strategy 1: Hard Majority Player
