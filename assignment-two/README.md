@@ -27,5 +27,5 @@ mvn compile
 4. Build the project
 
 ```bash
-mvn exec:java -Dexec.mainClass="cz4046.main.Wee_Dann_Player"
+mvn exec:java -Dexec.mainClass="cz4046.main.<filename>"
 ```
