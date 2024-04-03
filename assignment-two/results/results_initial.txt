@@ -1,0 +1,279 @@
+Tournament 1
+BestPlayer: 435.0447 points.
+GrimTriggerPlayer: 427.322 points.
+GradualPlayer: 417.12598 points.
+FirmButFairPlayer: 414.76364 points.
+TolerantPlayer: 400.50247 points.
+T4TPlayer: 398.9621 points.
+FreakyPlayer: 344.17383 points.
+NicePlayer: 337.06378 points.
+HardMajorityPlayer: 324.3858 points.
+NastyPlayer: 317.9568 points.
+RandomPlayer: 266.20346 points.
+ReverseT4TPlayer: 243.83415 points.
+
+Tournament 2
+BestPlayer: 426.18222 points.
+FirmButFairPlayer: 425.83084 points.
+GrimTriggerPlayer: 422.619 points.
+GradualPlayer: 420.77383 points.
+TolerantPlayer: 408.94458 points.
+T4TPlayer: 407.62268 points.
+FreakyPlayer: 338.13593 points.
+NicePlayer: 330.5335 points.
+HardMajorityPlayer: 326.22372 points.
+NastyPlayer: 324.44867 points.
+RandomPlayer: 276.46567 points.
+ReverseT4TPlayer: 230.4411 points.
+
+Tournament 3
+GradualPlayer: 421.15536 points.
+GrimTriggerPlayer: 419.3555 points.
+BestPlayer: 413.60126 points.
+FirmButFairPlayer: 411.84872 points.
+T4TPlayer: 396.1298 points.
+TolerantPlayer: 394.17645 points.
+FreakyPlayer: 334.29935 points.
+HardMajorityPlayer: 324.9249 points.
+NicePlayer: 323.93127 points.
+NastyPlayer: 313.7401 points.
+RandomPlayer: 262.42078 points.
+ReverseT4TPlayer: 237.97258 points.
+
+Tournament 4
+BestPlayer: 432.2984 points.
+GradualPlayer: 422.6276 points.
+GrimTriggerPlayer: 420.85727 points.
+FirmButFairPlayer: 418.02368 points.
+TolerantPlayer: 408.47375 points.
+T4TPlayer: 405.61002 points.
+FreakyPlayer: 338.1994 points.
+NicePlayer: 331.89532 points.
+NastyPlayer: 329.3506 points.
+HardMajorityPlayer: 315.59402 points.
+RandomPlayer: 264.2321 points.
+ReverseT4TPlayer: 228.77956 points.
+
+Tournament 5
+BestPlayer: 433.52393 points.
+FirmButFairPlayer: 423.89508 points.
+TolerantPlayer: 421.89053 points.
+GradualPlayer: 409.10376 points.
+GrimTriggerPlayer: 407.4742 points.
+T4TPlayer: 399.3152 points.
+NicePlayer: 331.05554 points.
+NastyPlayer: 320.1691 points.
+FreakyPlayer: 319.42236 points.
+HardMajorityPlayer: 314.6938 points.
+RandomPlayer: 264.18216 points.
+ReverseT4TPlayer: 236.37321 points.
+
+Tournament 6
+FirmButFairPlayer: 428.92557 points.
+GrimTriggerPlayer: 425.983 points.
+GradualPlayer: 425.12683 points.
+BestPlayer: 424.23547 points.
+TolerantPlayer: 407.7965 points.
+T4TPlayer: 395.77664 points.
+FreakyPlayer: 337.9377 points.
+NicePlayer: 328.54526 points.
+HardMajorityPlayer: 326.80276 points.
+NastyPlayer: 316.8083 points.
+RandomPlayer: 259.0933 points.
+ReverseT4TPlayer: 241.76709 points.
+
+Tournament 7
+BestPlayer: 418.03403 points.
+GradualPlayer: 417.62897 points.
+FirmButFairPlayer: 415.9703 points.
+GrimTriggerPlayer: 407.3588 points.
+TolerantPlayer: 403.32083 points.
+T4TPlayer: 396.32117 points.
+NicePlayer: 326.7699 points.
+NastyPlayer: 322.09335 points.
+FreakyPlayer: 311.8577 points.
+HardMajorityPlayer: 304.41296 points.
+RandomPlayer: 287.95282 points.
+ReverseT4TPlayer: 249.98988 points.
+
+Tournament 8
+GrimTriggerPlayer: 414.5211 points.
+BestPlayer: 413.38828 points.
+GradualPlayer: 401.62262 points.
+FirmButFairPlayer: 400.97208 points.
+TolerantPlayer: 397.6922 points.
+T4TPlayer: 390.6045 points.
+NicePlayer: 329.64325 points.
+HardMajorityPlayer: 317.54297 points.
+NastyPlayer: 316.25546 points.
+FreakyPlayer: 288.8292 points.
+RandomPlayer: 259.84595 points.
+ReverseT4TPlayer: 252.21298 points.
+
+Tournament 9
+GradualPlayer: 429.76974 points.
+BestPlayer: 429.3356 points.
+GrimTriggerPlayer: 419.3639 points.
+FirmButFairPlayer: 409.47226 points.
+TolerantPlayer: 400.79086 points.
+T4TPlayer: 384.00385 points.
+FreakyPlayer: 355.001 points.
+NastyPlayer: 319.70163 points.
+NicePlayer: 315.31714 points.
+HardMajorityPlayer: 308.12262 points.
+RandomPlayer: 269.17505 points.
+ReverseT4TPlayer: 225.76884 points.
+
+Tournament 10
+BestPlayer: 428.95193 points.
+GrimTriggerPlayer: 413.75452 points.
+FirmButFairPlayer: 403.13052 points.
+GradualPlayer: 401.1038 points.
+TolerantPlayer: 396.8706 points.
+T4TPlayer: 387.01428 points.
+NicePlayer: 328.92468 points.
+HardMajorityPlayer: 319.6345 points.
+NastyPlayer: 314.5253 points.
+FreakyPlayer: 297.368 points.
+RandomPlayer: 270.23483 points.
+ReverseT4TPlayer: 235.11197 points.
+
+Tournament 11
+BestPlayer: 423.37848 points.
+GrimTriggerPlayer: 420.33557 points.
+GradualPlayer: 414.2535 points.
+FirmButFairPlayer: 409.0858 points.
+TolerantPlayer: 392.41565 points.
+T4TPlayer: 380.88208 points.
+NicePlayer: 323.3432 points.
+NastyPlayer: 314.13394 points.
+HardMajorityPlayer: 313.25116 points.
+FreakyPlayer: 292.14615 points.
+RandomPlayer: 268.6539 points.
+ReverseT4TPlayer: 231.65202 points.
+
+Tournament 12
+FirmButFairPlayer: 422.17896 points.
+GrimTriggerPlayer: 416.7844 points.
+BestPlayer: 416.48257 points.
+GradualPlayer: 415.90012 points.
+TolerantPlayer: 405.754 points.
+T4TPlayer: 397.84473 points.
+FreakyPlayer: 344.1379 points.
+NicePlayer: 326.73132 points.
+NastyPlayer: 311.01175 points.
+HardMajorityPlayer: 305.46707 points.
+RandomPlayer: 269.37158 points.
+ReverseT4TPlayer: 235.59276 points.
+
+Tournament 13
+BestPlayer: 423.9726 points.
+GrimTriggerPlayer: 418.9343 points.
+GradualPlayer: 411.3482 points.
+FirmButFairPlayer: 410.32748 points.
+TolerantPlayer: 404.9329 points.
+T4TPlayer: 392.5923 points.
+HardMajorityPlayer: 325.0231 points.
+NicePlayer: 324.16138 points.
+NastyPlayer: 317.36258 points.
+FreakyPlayer: 310.7038 points.
+RandomPlayer: 275.49377 points.
+ReverseT4TPlayer: 252.2367 points.
+
+Tournament 14
+GrimTriggerPlayer: 426.9401 points.
+BestPlayer: 416.48682 points.
+FirmButFairPlayer: 416.1265 points.
+GradualPlayer: 414.00198 points.
+TolerantPlayer: 407.69775 points.
+T4TPlayer: 399.28012 points.
+FreakyPlayer: 326.57657 points.
+NicePlayer: 319.48804 points.
+NastyPlayer: 318.67487 points.
+HardMajorityPlayer: 297.51376 points.
+RandomPlayer: 275.32968 points.
+ReverseT4TPlayer: 236.90475 points.
+
+Tournament 15
+BestPlayer: 433.4165 points.
+GrimTriggerPlayer: 419.03757 points.
+FirmButFairPlayer: 417.15186 points.
+GradualPlayer: 411.73157 points.
+T4TPlayer: 407.60733 points.
+TolerantPlayer: 406.41855 points.
+NicePlayer: 346.03995 points.
+FreakyPlayer: 332.58575 points.
+NastyPlayer: 332.56555 points.
+HardMajorityPlayer: 312.5909 points.
+RandomPlayer: 282.94083 points.
+ReverseT4TPlayer: 241.3888 points.
+
+Tournament 16
+GradualPlayer: 422.3078 points.
+FirmButFairPlayer: 413.656 points.
+BestPlayer: 412.38177 points.
+GrimTriggerPlayer: 411.91922 points.
+TolerantPlayer: 410.8602 points.
+T4TPlayer: 395.7042 points.
+FreakyPlayer: 333.21228 points.
+NicePlayer: 317.3185 points.
+HardMajorityPlayer: 314.45364 points.
+NastyPlayer: 312.6317 points.
+RandomPlayer: 276.46838 points.
+ReverseT4TPlayer: 225.98038 points.
+
+Tournament 17
+BestPlayer: 432.06616 points.
+GradualPlayer: 418.6143 points.
+FirmButFairPlayer: 412.34625 points.
+TolerantPlayer: 406.81934 points.
+GrimTriggerPlayer: 403.13284 points.
+T4TPlayer: 384.05057 points.
+NicePlayer: 337.95453 points.
+FreakyPlayer: 328.03943 points.
+NastyPlayer: 322.14206 points.
+HardMajorityPlayer: 305.7051 points.
+RandomPlayer: 262.99924 points.
+ReverseT4TPlayer: 217.27841 points.
+
+Tournament 18
+FirmButFairPlayer: 428.64316 points.
+BestPlayer: 427.56693 points.
+GrimTriggerPlayer: 416.87656 points.
+GradualPlayer: 407.87036 points.
+TolerantPlayer: 402.95468 points.
+T4TPlayer: 395.57104 points.
+NicePlayer: 335.00592 points.
+NastyPlayer: 330.41513 points.
+HardMajorityPlayer: 321.0908 points.
+FreakyPlayer: 305.21988 points.
+RandomPlayer: 276.06522 points.
+ReverseT4TPlayer: 253.10571 points.
+
+Tournament 19
+BestPlayer: 418.9565 points.
+GrimTriggerPlayer: 416.6847 points.
+GradualPlayer: 411.16 points.
+FirmButFairPlayer: 405.5817 points.
+T4TPlayer: 404.27576 points.
+TolerantPlayer: 393.25696 points.
+NastyPlayer: 328.0932 points.
+FreakyPlayer: 317.94586 points.
+NicePlayer: 314.6908 points.
+HardMajorityPlayer: 312.855 points.
+RandomPlayer: 263.83298 points.
+ReverseT4TPlayer: 222.89693 points.
+
+Tournament 20
+BestPlayer: 422.30972 points.
+FirmButFairPlayer: 412.2151 points.
+GrimTriggerPlayer: 411.25912 points.
+GradualPlayer: 409.2667 points.
+TolerantPlayer: 400.4123 points.
+T4TPlayer: 384.97284 points.
+FreakyPlayer: 324.22235 points.
+NicePlayer: 316.12778 points.
+NastyPlayer: 315.1474 points.
+HardMajorityPlayer: 314.03046 points.
+RandomPlayer: 268.2521 points.
+ReverseT4TPlayer: 234.73918 points.
