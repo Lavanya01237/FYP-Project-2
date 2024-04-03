@@ -1,61 +1,181 @@
-Results from the Strategies Source Code (ThreePrisonersDilemmaWithStrategies.java)
-
+Results from the Wee_Dann_Player Source Code (Wee_Dann_Player.java)
 
 Tournament 1
-
+TolerantPlayer: 165.20502 points.
+BestPlayer: 163.33896 points.
+T4TPlayer: 160.92674 points.
+NicePlayer: 153.8813 points.
+FreakyPlayer: 150.94418 points.
+NastyPlayer: 144.26062 points.
+RandomPlayer: 126.49321 points.
 
 Tournament 2
-
+TolerantPlayer: 167.5907 points.
+BestPlayer: 161.33284 points.
+T4TPlayer: 160.06131 points.
+NicePlayer: 158.42844 points.
+FreakyPlayer: 145.51524 points.
+NastyPlayer: 141.94327 points.
+RandomPlayer: 133.55112 points.
 
 Tournament 3
-
+BestPlayer: 174.95679 points.
+T4TPlayer: 166.84058 points.
+TolerantPlayer: 164.0467 points.
+NicePlayer: 159.7037 points.
+FreakyPlayer: 150.3402 points.
+NastyPlayer: 147.66537 points.
+RandomPlayer: 138.20915 points.
 
 Tournament 4
-
+BestPlayer: 166.67908 points.
+T4TPlayer: 161.37164 points.
+TolerantPlayer: 158.49266 points.
+RandomPlayer: 151.82281 points.
+NastyPlayer: 149.57191 points.
+NicePlayer: 147.45422 points.
+FreakyPlayer: 135.50629 points.
 
 Tournament 5
-
+T4TPlayer: 172.92116 points.
+BestPlayer: 171.11456 points.
+TolerantPlayer: 170.8681 points.
+NicePlayer: 164.4265 points.
+NastyPlayer: 150.40886 points.
+FreakyPlayer: 148.74141 points.
+RandomPlayer: 129.932 points.
 
 Tournament 6
-
+BestPlayer: 166.40657 points.
+T4TPlayer: 162.85065 points.
+TolerantPlayer: 160.13486 points.
+NicePlayer: 153.4916 points.
+FreakyPlayer: 145.49948 points.
+RandomPlayer: 145.37915 points.
+NastyPlayer: 141.55363 points.
 
 Tournament 7
-
+TolerantPlayer: 168.73735 points.
+T4TPlayer: 167.03458 points.
+BestPlayer: 160.30894 points.
+NastyPlayer: 146.08379 points.
+NicePlayer: 145.2425 points.
+FreakyPlayer: 138.48329 points.
+RandomPlayer: 133.26656 points.
 
 Tournament 8
-
+BestPlayer: 173.01215 points.
+TolerantPlayer: 163.54652 points.
+T4TPlayer: 161.26642 points.
+NicePlayer: 154.2802 points.
+NastyPlayer: 148.17238 points.
+FreakyPlayer: 140.82088 points.
+RandomPlayer: 128.49353 points.
 
 Tournament 9
-
+BestPlayer: 166.61295 points.
+T4TPlayer: 156.29897 points.
+NicePlayer: 155.5786 points.
+TolerantPlayer: 155.345 points.
+FreakyPlayer: 142.85541 points.
+NastyPlayer: 137.1309 points.
+RandomPlayer: 130.26338 points.
 
 Tournament 10
-
+BestPlayer: 173.71408 points.
+TolerantPlayer: 166.12859 points.
+T4TPlayer: 161.50699 points.
+NicePlayer: 155.4124 points.
+NastyPlayer: 136.11632 points.
+FreakyPlayer: 134.9154 points.
+RandomPlayer: 123.624245 points.
 
 Tournament 11
-
+BestPlayer: 173.14447 points.
+T4TPlayer: 165.26358 points.
+TolerantPlayer: 157.84721 points.
+FreakyPlayer: 148.29007 points.
+NastyPlayer: 144.64821 points.
+RandomPlayer: 140.40071 points.
+NicePlayer: 139.41914 points.
 
 Tournament 12
-
+TolerantPlayer: 166.56956 points.
+BestPlayer: 164.7707 points.
+T4TPlayer: 157.4155 points.
+NastyPlayer: 146.39355 points.
+NicePlayer: 145.94237 points.
+FreakyPlayer: 139.35191 points.
+RandomPlayer: 130.60536 points.
 
 Tournament 13
-
+BestPlayer: 176.6952 points.
+T4TPlayer: 170.51898 points.
+NicePlayer: 167.92581 points.
+TolerantPlayer: 163.62556 points.
+RandomPlayer: 149.17368 points.
+NastyPlayer: 144.75433 points.
+FreakyPlayer: 143.849 points.
 
 Tournament 14
-
+T4TPlayer: 167.7174 points.
+BestPlayer: 163.55043 points.
+TolerantPlayer: 163.1965 points.
+NicePlayer: 151.62064 points.
+NastyPlayer: 146.26395 points.
+FreakyPlayer: 145.64381 points.
+RandomPlayer: 134.92711 points.
 
 Tournament 15
-
+TolerantPlayer: 172.9527 points.
+BestPlayer: 165.11957 points.
+T4TPlayer: 160.91853 points.
+NicePlayer: 148.73389 points.
+FreakyPlayer: 143.94855 points.
+RandomPlayer: 138.04861 points.
+NastyPlayer: 126.51578 points.
 
 Tournament 16
-
+BestPlayer: 172.38719 points.
+T4TPlayer: 160.20705 points.
+FreakyPlayer: 159.60114 points.
+TolerantPlayer: 154.40192 points.
+NicePlayer: 146.40976 points.
+NastyPlayer: 144.42326 points.
+RandomPlayer: 134.58829 points.
 
 Tournament 17
-
+T4TPlayer: 170.7283 points.
+BestPlayer: 166.584 points.
+TolerantPlayer: 166.42046 points.
+FreakyPlayer: 151.14966 points.
+NicePlayer: 146.76845 points.
+NastyPlayer: 137.46445 points.
+RandomPlayer: 121.87155 points.
 
 Tournament 18
-
+BestPlayer: 161.2321 points.
+TolerantPlayer: 161.05374 points.
+T4TPlayer: 155.66588 points.
+NicePlayer: 147.8338 points.
+NastyPlayer: 144.92888 points.
+FreakyPlayer: 139.81342 points.
+RandomPlayer: 122.95451 points.
 
 Tournament 19
-
+BestPlayer: 168.84335 points.
+T4TPlayer: 162.21002 points.
+TolerantPlayer: 159.67479 points.
+NicePlayer: 145.25641 points.
+RandomPlayer: 141.61958 points.
+NastyPlayer: 137.59334 points.
+FreakyPlayer: 136.54668 points.
 
 Tournament 20
+BestPlayer: 167.71298 points.
+T4TPlayer: 164.80833 points.
+TolerantPlayer: 162.81271 points.
+NicePlayer: 147.4881 points.
+FreakyPlayer: 146.02028 points.
+NastyPlayer: 139.46797 points.
+RandomPlayer: 130.22032 points.
