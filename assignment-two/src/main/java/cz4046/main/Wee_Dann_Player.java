@@ -51,10 +51,13 @@ public class Wee_Dann_Player {
         }
     }
 
-    /* Here are four simple strategies: */
-
-    // Implemented Solution - Final Submission
+    /*
+     * Solution: Best Player
+     * Based on Grim Trigger Player, Gradual Player, Firm but Fair Player, and
+     * Tolerant Player
+     */
     class BestPlayer extends Player {
+
         // Private instance variables
         private boolean triggered = false;
         private int opponentCoop = 0;
@@ -62,9 +65,10 @@ public class Wee_Dann_Player {
         private boolean cooperate = true;
         private boolean firstMove = true;
 
+        // Overriding the selectAction method in the superclass
         @Override
         int selectAction(int n, int[] myHistory, int[] oppHistory1, int[] oppHistory2) {
-            // Check if opponent has defected in previous rounds
+            // Determine if the opponent has defected in previous rounds
             boolean opponentHasDefected = false;
             for (int i = 0; i < n; i++) {
                 if (oppHistory1[i] == 1 || oppHistory2[i] == 1) {
@@ -73,9 +77,9 @@ public class Wee_Dann_Player {
                 }
             }
 
-            // If opponent has defected, follow this strategy
+            // Implementing strategy when the opponent has defected
             if (opponentHasDefected) {
-                // Check if triggered by a previous defection
+                // Check if the player is triggered by a previous defection
                 if (!triggered) {
                     for (int i = 0; i < n; i++) {
                         if (oppHistory1[i] == 1 || oppHistory2[i] == 1) {
@@ -85,22 +89,22 @@ public class Wee_Dann_Player {
                     }
                 }
 
-                // If triggered, always defect
+                // If triggered, always choose to defect
                 if (triggered) {
-                    return 1;
+                    return 1; // Defect
                 } else {
-                    // If not triggered, compare opponent's cooperation and defection rates
+                    // If not triggered, assess opponent's cooperation and defection rates
                     for (int i = 0; i < n; i++) {
                         if (oppHistory1[i] == 0)
-                            opponentCoop = opponentCoop + 1;
+                            opponentCoop++;
                         else
-                            opponentDefect = opponentDefect + 1;
+                            opponentDefect++;
                     }
                     for (int i = 0; i < n; i++) {
                         if (oppHistory2[i] == 0)
-                            opponentCoop = opponentCoop + 1;
+                            opponentCoop++;
                         else
-                            opponentDefect = opponentDefect + 1;
+                            opponentDefect++;
                     }
                     if (opponentDefect > opponentCoop)
                         return 1; // Defect
@@ -108,18 +112,18 @@ public class Wee_Dann_Player {
                         return 0; // Cooperate
                 }
             } else {
-                // If opponent has not defected
-                // On the first move, cooperate
+                // Implement strategy when the opponent has not defected
+                // Cooperate on the first move
                 if (firstMove) {
                     firstMove = false;
-                    return 0;
+                    return 0; // Cooperate
                 } else if (!cooperate) {
-                    // If last move was a defection
+                    // If the last move was a defection
                     cooperate = oppHistory1[n - 1] == 0 && oppHistory2[n - 1] == 0;
                     // Cooperate if both opponents cooperated, otherwise defect
                     return cooperate ? 0 : 1;
                 } else {
-                    // If last move was cooperation
+                    // If the last move was cooperation
                     cooperate = oppHistory1[n - 1] == 0 && oppHistory2[n - 1] == 0;
                     // Cooperate if both opponents cooperated, otherwise defect
                     return cooperate ? 0 : 1;

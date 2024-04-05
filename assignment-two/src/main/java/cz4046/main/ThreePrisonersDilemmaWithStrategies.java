@@ -119,7 +119,21 @@ public class ThreePrisonersDilemmaWithStrategies {
         }
     }
 
-    // Strategy 3: Firm but Fair Player
+    // Strategy 3: Reverse Tit for Tat Player
+    class ReverseT4TPlayer extends Player {
+
+        // Method to select the action for each round
+        int selectAction(int n, int[] myHistory, int[] oppHistory1, int[] oppHistory2) {
+            if (n == 0) {
+                return 1; // Defect on the first move
+            } else {
+                int lastOpponentMove = oppHistory1[n - 1]; // Get opponent's last move
+                return lastOpponentMove == 0 ? 1 : 0; // Reverse opponent's last move
+            }
+        }
+    }
+
+    // Strategy 4: Firm but Fair Player
     class FirmButFairPlayer extends Player {
 
         // Flag to keep track of whether to cooperate or not
@@ -149,7 +163,7 @@ public class ThreePrisonersDilemmaWithStrategies {
         }
     }
 
-    // Strategy 4: Gradual Player
+    // Strategy 5: Gradual Player
     class GradualPlayer extends Player {
 
         // Variables to track defections and forgiveness status
@@ -201,97 +215,6 @@ public class ThreePrisonersDilemmaWithStrategies {
                     // Defect if the opponent is not forgiving
                     consecutiveDefections++;
                     return 1; // Defect
-                }
-            }
-        }
-    }
-
-    // Strategy 5: Reverse Tit for Tat Player
-    class ReverseT4TPlayer extends Player {
-
-        // Method to select the action for each round
-        int selectAction(int n, int[] myHistory, int[] oppHistory1, int[] oppHistory2) {
-            if (n == 0) {
-                return 1; // Defect on the first move
-            } else {
-                int lastOpponentMove = oppHistory1[n - 1]; // Get opponent's last move
-                return lastOpponentMove == 0 ? 1 : 0; // Reverse opponent's last move
-            }
-        }
-    }
-
-    // Develop Best Player
-    class BestPlayer extends Player {
-
-        // Private instance variables
-        private boolean triggered = false;
-        private int opponentCoop = 0;
-        private int opponentDefect = 0;
-        private boolean cooperate = true;
-        private boolean firstMove = true;
-
-        // Overriding the selectAction method in the superclass
-        @Override
-        int selectAction(int n, int[] myHistory, int[] oppHistory1, int[] oppHistory2) {
-            // Check if opponent has defected in previous rounds
-            boolean opponentHasDefected = false;
-            for (int i = 0; i < n; i++) {
-                if (oppHistory1[i] == 1 || oppHistory2[i] == 1) {
-                    opponentHasDefected = true;
-                    break;
-                }
-            }
-
-            // If opponent has defected, follow this strategy
-            if (opponentHasDefected) {
-                // Check if triggered by a previous defection
-                if (!triggered) {
-                    for (int i = 0; i < n; i++) {
-                        if (oppHistory1[i] == 1 || oppHistory2[i] == 1) {
-                            triggered = true;
-                            break;
-                        }
-                    }
-                }
-
-                // If triggered, always defect
-                if (triggered) {
-                    return 1; // Defect
-                } else {
-                    // If not triggered, compare opponent's cooperation and defection rates
-                    for (int i = 0; i < n; i++) {
-                        if (oppHistory1[i] == 0)
-                            opponentCoop++;
-                        else
-                            opponentDefect++;
-                    }
-                    for (int i = 0; i < n; i++) {
-                        if (oppHistory2[i] == 0)
-                            opponentCoop++;
-                        else
-                            opponentDefect++;
-                    }
-                    if (opponentDefect > opponentCoop)
-                        return 1; // Defect
-                    else
-                        return 0; // Cooperate
-                }
-            } else {
-                // If opponent has not defected
-                // On the first move, cooperate
-                if (firstMove) {
-                    firstMove = false;
-                    return 0; // Cooperate
-                } else if (!cooperate) {
-                    // If last move was a defection
-                    cooperate = oppHistory1[n - 1] == 0 && oppHistory2[n - 1] == 0;
-                    // Cooperate if both opponents cooperated, otherwise defect
-                    return cooperate ? 0 : 1;
-                } else {
-                    // If last move was cooperation
-                    cooperate = oppHistory1[n - 1] == 0 && oppHistory2[n - 1] == 0;
-                    // Cooperate if both opponents cooperated, otherwise defect
-                    return cooperate ? 0 : 1;
                 }
             }
         }
@@ -444,10 +367,6 @@ public class ThreePrisonersDilemmaWithStrategies {
                 return new HardMajorityPlayer();
             case 10:
                 return new ReverseT4TPlayer();
-
-            // case 11: return new Gradual_FBF_Combined();
-            case 11:
-                return new BestPlayer();
         }
         throw new RuntimeException("Bad argument passed to makePlayer");
     }

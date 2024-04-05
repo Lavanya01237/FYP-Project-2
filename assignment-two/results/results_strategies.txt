@@ -1,7 +1,6 @@
 Results from the Strategies Source Code (ThreePrisonersDilemmaWithStrategies.java)
 
 Tournament 1
-BestPlayer: 435.0447 points.
 GrimTriggerPlayer: 427.322 points.
 GradualPlayer: 417.12598 points.
 FirmButFairPlayer: 414.76364 points.
@@ -15,7 +14,6 @@ RandomPlayer: 266.20346 points.
 ReverseT4TPlayer: 243.83415 points.
 
 Tournament 2
-BestPlayer: 426.18222 points.
 FirmButFairPlayer: 425.83084 points.
 GrimTriggerPlayer: 422.619 points.
 GradualPlayer: 420.77383 points.
@@ -31,7 +29,6 @@ ReverseT4TPlayer: 230.4411 points.
 Tournament 3
 GradualPlayer: 421.15536 points.
 GrimTriggerPlayer: 419.3555 points.
-BestPlayer: 413.60126 points.
 FirmButFairPlayer: 411.84872 points.
 T4TPlayer: 396.1298 points.
 TolerantPlayer: 394.17645 points.
@@ -43,7 +40,6 @@ RandomPlayer: 262.42078 points.
 ReverseT4TPlayer: 237.97258 points.
 
 Tournament 4
-BestPlayer: 432.2984 points.
 GradualPlayer: 422.6276 points.
 GrimTriggerPlayer: 420.85727 points.
 FirmButFairPlayer: 418.02368 points.
@@ -57,7 +53,6 @@ RandomPlayer: 264.2321 points.
 ReverseT4TPlayer: 228.77956 points.
 
 Tournament 5
-BestPlayer: 433.52393 points.
 FirmButFairPlayer: 423.89508 points.
 TolerantPlayer: 421.89053 points.
 GradualPlayer: 409.10376 points.
@@ -74,7 +69,6 @@ Tournament 6
 FirmButFairPlayer: 428.92557 points.
 GrimTriggerPlayer: 425.983 points.
 GradualPlayer: 425.12683 points.
-BestPlayer: 424.23547 points.
 TolerantPlayer: 407.7965 points.
 T4TPlayer: 395.77664 points.
 FreakyPlayer: 337.9377 points.
@@ -85,7 +79,6 @@ RandomPlayer: 259.0933 points.
 ReverseT4TPlayer: 241.76709 points.
 
 Tournament 7
-BestPlayer: 418.03403 points.
 GradualPlayer: 417.62897 points.
 FirmButFairPlayer: 415.9703 points.
 GrimTriggerPlayer: 407.3588 points.
@@ -100,7 +93,6 @@ ReverseT4TPlayer: 249.98988 points.
 
 Tournament 8
 GrimTriggerPlayer: 414.5211 points.
-BestPlayer: 413.38828 points.
 GradualPlayer: 401.62262 points.
 FirmButFairPlayer: 400.97208 points.
 TolerantPlayer: 397.6922 points.
@@ -114,7 +106,6 @@ ReverseT4TPlayer: 252.21298 points.
 
 Tournament 9
 GradualPlayer: 429.76974 points.
-BestPlayer: 429.3356 points.
 GrimTriggerPlayer: 419.3639 points.
 FirmButFairPlayer: 409.47226 points.
 TolerantPlayer: 400.79086 points.
@@ -127,7 +118,6 @@ RandomPlayer: 269.17505 points.
 ReverseT4TPlayer: 225.76884 points.
 
 Tournament 10
-BestPlayer: 428.95193 points.
 GrimTriggerPlayer: 413.75452 points.
 FirmButFairPlayer: 403.13052 points.
 GradualPlayer: 401.1038 points.
@@ -141,7 +131,6 @@ RandomPlayer: 270.23483 points.
 ReverseT4TPlayer: 235.11197 points.
 
 Tournament 11
-BestPlayer: 423.37848 points.
 GrimTriggerPlayer: 420.33557 points.
 GradualPlayer: 414.2535 points.
 FirmButFairPlayer: 409.0858 points.
@@ -157,7 +146,6 @@ ReverseT4TPlayer: 231.65202 points.
 Tournament 12
 FirmButFairPlayer: 422.17896 points.
 GrimTriggerPlayer: 416.7844 points.
-BestPlayer: 416.48257 points.
 GradualPlayer: 415.90012 points.
 TolerantPlayer: 405.754 points.
 T4TPlayer: 397.84473 points.
@@ -169,7 +157,6 @@ RandomPlayer: 269.37158 points.
 ReverseT4TPlayer: 235.59276 points.
 
 Tournament 13
-BestPlayer: 423.9726 points.
 GrimTriggerPlayer: 418.9343 points.
 GradualPlayer: 411.3482 points.
 FirmButFairPlayer: 410.32748 points.
@@ -184,7 +171,6 @@ ReverseT4TPlayer: 252.2367 points.
 
 Tournament 14
 GrimTriggerPlayer: 426.9401 points.
-BestPlayer: 416.48682 points.
 FirmButFairPlayer: 416.1265 points.
 GradualPlayer: 414.00198 points.
 TolerantPlayer: 407.69775 points.
@@ -197,7 +183,6 @@ RandomPlayer: 275.32968 points.
 ReverseT4TPlayer: 236.90475 points.
 
 Tournament 15
-BestPlayer: 433.4165 points.
 GrimTriggerPlayer: 419.03757 points.
 FirmButFairPlayer: 417.15186 points.
 GradualPlayer: 411.73157 points.
@@ -213,7 +198,6 @@ ReverseT4TPlayer: 241.3888 points.
 Tournament 16
 GradualPlayer: 422.3078 points.
 FirmButFairPlayer: 413.656 points.
-BestPlayer: 412.38177 points.
 GrimTriggerPlayer: 411.91922 points.
 TolerantPlayer: 410.8602 points.
 T4TPlayer: 395.7042 points.
@@ -225,7 +209,6 @@ RandomPlayer: 276.46838 points.
 ReverseT4TPlayer: 225.98038 points.
 
 Tournament 17
-BestPlayer: 432.06616 points.
 GradualPlayer: 418.6143 points.
 FirmButFairPlayer: 412.34625 points.
 TolerantPlayer: 406.81934 points.
@@ -240,7 +223,6 @@ ReverseT4TPlayer: 217.27841 points.
 
 Tournament 18
 FirmButFairPlayer: 428.64316 points.
-BestPlayer: 427.56693 points.
 GrimTriggerPlayer: 416.87656 points.
 GradualPlayer: 407.87036 points.
 TolerantPlayer: 402.95468 points.
@@ -253,7 +235,6 @@ RandomPlayer: 276.06522 points.
 ReverseT4TPlayer: 253.10571 points.
 
 Tournament 19
-BestPlayer: 418.9565 points.
 GrimTriggerPlayer: 416.6847 points.
 GradualPlayer: 411.16 points.
 FirmButFairPlayer: 405.5817 points.
@@ -267,7 +248,6 @@ RandomPlayer: 263.83298 points.
 ReverseT4TPlayer: 222.89693 points.
 
 Tournament 20
-BestPlayer: 422.30972 points.
 FirmButFairPlayer: 412.2151 points.
 GrimTriggerPlayer: 411.25912 points.
 GradualPlayer: 409.2667 points.
