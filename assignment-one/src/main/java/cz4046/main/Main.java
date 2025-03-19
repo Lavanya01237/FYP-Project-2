@@ -26,7 +26,7 @@ public class Main {
         // complicated = false - means that the maze environment created will be the
         // maze that is defined in the assignment document
         // 0 - means it will just use the original coordinates for each states
-        // (PENALTY,REWARD,WALL,EMPTY,START)
+        // (PENALTY,REWARD,WALL,EMPTY,START)cd
         Maze map = new Maze(NUM_ROWS, NUM_COLS, scale, complicated, 0);
         map.showMazeWorld();
 

@@ -19,7 +19,7 @@ public class Config {
     public static final String WALLS_POINTS = "0,1;1,4;4,1;4,2;4,3";
 
     // Reward functions
-    public static final double E_REWARD = -0.040;
+    public static final double E_REWARD = -0.050;
     public static final double R_REWARD = +1.000;
     public static final double P_REWARD = -1.000;
     public static final double W_REWARD = 0.000;
